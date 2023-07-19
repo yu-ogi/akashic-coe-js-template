@@ -1,0 +1,24 @@
+{
+  "name": "akashic-coe-js-template",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "akashic-sandbox .",
+    "lint": "eslint . --fix",
+    "format": "prettier . --write",
+    "test": "npm run lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "@akashic-extension/coe": "^2.2.1"
+  },
+  "devDependencies": {
+    "@akashic/akashic-engine": "^3.12.0",
+    "@akashic/akashic-sandbox": "^0.23.0",
+    "eslint": "^8.40.0",
+    "prettier": "^2.8.8"
+  }
+}

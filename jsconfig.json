@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "CommonJS",
+    "checkJs": false,
+    "allowUmdGlobalAccess": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["script/**/*.js"],
+  "files": ["node_modules/@akashic/akashic-engine/index.runtime.d.ts"]
+}
