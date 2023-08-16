@@ -5,7 +5,7 @@
 ### first time
 
 ```sh
-npm i @akashic-cli -g
+npm i @akashic/akashic-cli -g
 akashic config set init.github.protocol ssh
 ```
 
