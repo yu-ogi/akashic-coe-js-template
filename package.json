@@ -3,8 +3,9 @@
   "private": true,
   "version": "1.0.0",
   "description": "",
+  "module": "commonjs",
   "scripts": {
-    "start": "akashic-sandbox .",
+    "start": "akashic-cli-sandbox .",
     "lint": "eslint . --fix",
     "format": "prettier . --write",
     "test": "npm run lint"
@@ -16,9 +17,9 @@
     "@akashic-extension/coe": "^2.3.0"
   },
   "devDependencies": {
-    "@akashic/akashic-engine": "^3.15.0",
-    "@akashic/akashic-sandbox": "^0.24.5",
-    "eslint": "^8.50.0",
-    "prettier": "^3.0.3"
+    "@akashic/akashic-cli-sandbox": "^1.0.2",
+    "@akashic/akashic-engine": "^3.18.0",
+    "eslint": "^9.2.0",
+    "prettier": "^3.2.5"
   }
 }
