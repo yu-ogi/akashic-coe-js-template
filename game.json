@@ -4,17 +4,17 @@
   "fps": 30,
   "main": "./script/main.js",
   "assets": {
-    "main": {
+    "script/main": {
       "type": "script",
       "path": "script/main.js",
       "global": true
     },
-    "controller": {
+    "script/controllers/controller": {
       "type": "script",
       "path": "script/controllers/controller.js",
       "global": true
     },
-    "scene": {
+    "script/scenes/scene": {
       "type": "script",
       "path": "script/scenes/scene.js",
       "global": true

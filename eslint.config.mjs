@@ -1,16 +1,19 @@
+import { defineConfig } from "eslint/config";
 import globals from "globals";
 
-export default [
+export default defineConfig([
+  {
+    ignores: ["*.mjs"],
+  },
   {
     languageOptions: {
       ecmaVersion: 2020,
       sourceType: "commonjs",
       globals: {
-        ...globals.browser,
+        ...globals.node,
         g: true,
       },
     },
-    ignores: ["*.mjs"],
     rules: {
       "no-dupe-args": "error",
       "no-dupe-keys": "error",
@@ -28,4 +31,4 @@ export default [
       "no-undef": "error",
     },
   },
-];
+]);

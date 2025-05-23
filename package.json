@@ -17,9 +17,11 @@
     "@akashic-extension/coe": "^2.3.0"
   },
   "devDependencies": {
-    "@akashic/akashic-cli-sandbox": "^1.0.2",
-    "@akashic/akashic-engine": "^3.18.0",
-    "eslint": "^9.2.0",
-    "prettier": "^3.2.5"
+    "@akashic/akashic-cli-commons": "^1.0.0",
+    "@akashic/akashic-cli-sandbox": "^2.0.1",
+    "@akashic/akashic-engine": "^3.20.3",
+    "@akashic/sandbox-configuration": "^2.3.0",
+    "eslint": "^9.27.0",
+    "prettier": "^3.5.3"
   }
 }
